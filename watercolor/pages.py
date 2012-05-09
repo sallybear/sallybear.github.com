@@ -17,7 +17,7 @@ for fid in range(len(files)):
 <head>
 <title>Water Color Result</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
-<link rel="stylesheet" href="main.css" type="text/css" media="screen" charset="utf-8" ></link>
+<link rel="stylesheet" href="main.css" type="text/css" media="screen" charset="utf-8" >
 </head>
 <body>
 <div class="main">
