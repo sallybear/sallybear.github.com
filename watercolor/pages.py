@@ -12,8 +12,7 @@ for fid in range(len(files)):
   next = "#"
   if fid < len(files)-1:
     next = files[fid+1]+".html"
-  f.write('''<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "
-http://www.w3.org/TR/html4/loose.dtd">
+  f.write('''<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <title>Water Color Result</title>
@@ -23,21 +22,20 @@ http://www.w3.org/TR/html4/loose.dtd">
 <body>
 <div class="main">
 <div class="block">
-<center><a href="../index.html" alt="back to home"><span class="ui-icon ui-icon-home"> </span></a></center>
+<center><a href="../index.html"><span class="ui-icon ui-icon-home"> </span></a></center>
 </div>
 <div class="block">
-<center><img style="padding:5px;border:1px dashed #021a40" src="../fullscreen/'''+files[fid]+'''.res.png" class="domroll ../fullscreen/'''+files[fid]+'''">
+<center><img style="padding:5px;border:1px dashed #021a40" src="../fullscreen/'''+files[fid]+'''.res.png" class="domroll ../fullscreen/'''+files[fid]+'''" alt="move to see origin">
 </center>
 </div>
 <div class="block">
 <div style="width:20%;float:left;"><a href="'''+prev+'''"><span class="ui-icon ui-icon-back" style="float:right"> </span></a></div>
 <div style="width:60%;float:left;"><center><p>'''+files[fid]+'''</p></center></div>
 <div style="width:20%;float:left;"><a href="'''+next+'''"><span class="ui-icon ui-icon-forward"> </span></a></div>
-</center>
 </div>
 </div>
 
-<script src="dom_image_rollover_hover.js">
+<script src="dom_image_rollover_hover.js" type="text/javascript">
 </script>
 </body>
 </html>''')
