@@ -14,6 +14,8 @@ h1 {
 
 p { font-size: 11px; padding-top:8px;}
       
+img {border:none}
+
 .main {
   background: #fff;
   margin: 0 auto;
