@@ -30,11 +30,17 @@ p { font-size: 11px; padding-top:8px;}
   height:64px;
   padding:3px;
   margin:2px;
-  display:block;
   float:left;
   border: 1px dashed #eee;
+	display:block;
+  text-align:center;
+	line-height : 64px;
+  *font-size : 57px; 
+  *font-family : Arial;
 }
-
+.gallery li img{
+  vertical-align : middle;
+}
 .ui-icon{
   width: 32px;
   height: 32px;
